@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --yellow: #f3dcb2;
+  --orange: #facb97;
+  --peach: #f59982;
+  --pink: #ed616f;
+  --super-pink: #f2116c;
+  --white: #ffffff;
+}
+body {
+  background: linear-gradient(to bottom, var(--super-pink), var(--peach));
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+  color: var(--white);
+}
+.container {
+  max-width: 80%;
+  width: 400px;
+  height: 600px;
+  margin: 0 auto;
+}
+/* Login */
+
+.title{
+    font-size: 50px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    text-align: center;
+    margin-top: 80px;
+}
+.lista {
+    width: 200px;
+    height: 250px;
+    margin-top: 20px;
+    display: block;
+    margin-left: 120px;
+}
+
+.btn-google {
+    width: 30%;
+    height: 7%;
+    font-size: 70%;
+    font-family: "Roboto", sans-serif;
+    background-color: white;
+    flex-direction: row-reverse;
+    align-items: center;
+    top: 5%;
+    display: flex;
+    justify-content: center;
+    left: 51%;
+    transform: translateX(-45%);
+    text-align: center;
+    position: relative;
+  }
+  .img-google{
+    width: 25px;
+    height: 25px;;
+    margin-right: 10px;
+  }
+/*Profile*/
+
+.profile h1 {
+  color: var(--white);
+}
+
+#date {
+  padding: 50px 0 5px 0;
+  color: var(--white);
+}
+
+/*Add task section*/
+.addTask {
+  background-color: var(--white);
+  border-radius: 15px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  gap: 70px;
+  margin: 40px 0;
+}
+
+.addTask input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  background-color: var(--white);
+}
+.addTask input::placeholder {
+  font-size: 1.1rem;
+  color: var(--super-pink);
+  font-family: "Poppins", sans-serif;
+}
+.addTask i {
+  font-size: 50px;
+  color: var(--super-pink);
+}
+.addTask i:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+/*Tasks*/
+.tasks h3 {
+  color: var(--white);
+  margin-bottom: 20px;
+}
+
+.tasks li {
+  display: flex;
+  background: linear-gradient(to bottom, var(--white), var(--peach));
+  border-radius: 15px;
+  padding: 10px;
+  align-items: center;
+  justify-content: space-between;
+  margin: 5px 0;
+}
+
+.tasks i {
+  font-size: 25px;
+  color: var(--white);
+}
+.tasks i:hover {
+  color: var(--pink);
+  cursor: pointer;
+}
+
+.tasks > ul p {
+  font-size: 1.2rem;
+  color: var(--super-pink);
+}
+.line-through {
+  text-decoration: line-through;
+  color: var(--pink);
+}
