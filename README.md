@@ -31,7 +31,12 @@ Checklist-ify/
 ├── .gitignore
 └── README.md
 
-Si quieres contribuir a este proyecto, ¡eres bienvenido! Solo sigue estos pasos:
+#Enlaces
+Prototipo de baja fidelidad: [
+](https://www.figma.com/file/oOv76HFuod5wCbtTXL9Tqd/Checklist-ify?type=design&node-id=0%3A1&mode=design&t=5dBsTbcrFY81iN2v-1)
+
+GitHub Project: [
+](https://github.com/Ale771992/Checklist-ify/milestones)Si quieres contribuir a este proyecto, ¡eres bienvenido! Solo sigue estos pasos:
 
 Crea un fork del repositorio.
 Crea una rama para tus cambios: git checkout -b feature/nueva-funcionalidad.
